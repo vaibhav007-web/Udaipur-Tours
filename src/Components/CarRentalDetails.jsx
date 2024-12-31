@@ -34,9 +34,9 @@ function CarRentalDetails() {
        
    useEffect(() => {
        const fetchUserData = async () =>{
-       const storedUsername = sessionStorage.getItem('username');
-       const storedPhone = sessionStorage.getItem('phone');
-       const storedEmail = sessionStorage.getItem('email');
+       const storedUsername = ('username');
+       const storedPhone = ('phone');
+       const storedEmail = ('email');
        
        if ( storedUsername && storedPhone && storedEmail) {
            setName(storedUsername); 

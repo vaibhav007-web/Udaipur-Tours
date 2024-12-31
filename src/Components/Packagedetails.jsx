@@ -29,9 +29,9 @@ function Packagedetails() {
   
   useEffect(() => {
          
-    const storedUsername = sessionStorage.getItem('username');
-    const storedPhone = sessionStorage.getItem('phone');
-    const storedEmail = sessionStorage.getItem('email');
+    const storedUsername = ('username');
+    const storedPhone = ('phone');
+    const storedEmail = ('email');
 
     console.log('Session data:', {
      storedUsername, storedPhone, storedEmail, 
