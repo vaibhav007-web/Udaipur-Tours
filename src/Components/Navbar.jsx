@@ -27,7 +27,7 @@ function Navbar() {
   <div className="container-fluid">
     <a className="navbar-brand" href="#nav" style={{ marginRight: '75px' }}>
       {/* <img src={Logo} className="logo" alt="Logo" width={130} height={120} /> */}
-      <h2 className='text-white' style={{fontFamily: "cursive"}}><b><i>Keen Tour's and Travel</i></b></h2>
+      <h2 className='text-white' style={{fontFamily: "cursive"}}><b><i>Tour's and Travel</i></b></h2>
     </a>
     <button
       style={{ backgroundColor: "white" }}
